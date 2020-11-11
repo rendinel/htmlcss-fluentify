@@ -16,6 +16,9 @@
   display: table;
 }
 
+.floatl{
+  float: left;
+}
 /* fine classi comuni */
 
 /* classi elementi pagina inizio  */
@@ -49,10 +52,6 @@ header{
   background-color: grey;
 }
 
-.floatl{
-  float: left;
-}
-
 .logoimg{
   width: 10%;
   height: 100%;
@@ -61,13 +60,17 @@ header{
 }
 
 .contenitorelogo{
-  width: 30px;
-  height: 30px;
-  position:absolute;
-  top: 50%;
-  right: 50%;
-  background-color:green;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 38px;
+  position: absolute;
+  top:46%;
+  left:50%;
+  transform: translate(-50%, -50%); 
+}
+
+.contenitorelogo > img{
+  width: 100%;
+  height: 100%;
 }
 
 .navright{
@@ -80,7 +83,7 @@ header{
 .navleft{
   width:40%;
   height:100%;
-  background-color:yellow;
+  background-color:red;
 }
 
 ul > li {
@@ -94,7 +97,159 @@ ul > li {
   padding-left: 8px;
 }
 
+h1{
+  color: white;
+  font-size: 50px;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.headerbutton{
+  margin-left: 10%;
+  margin-top: 2%;
+  background-color: #4CAF50;
+  border: none;
+  font-size: 16px;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+
 
 /* fine classi header e nav */
 
+/* inizio classi main */
+
+main{
+  width: 100%;
+  height: 700px;
+
+}
+.subheader{
+  height: 200px;
+  background-color:lightgray;
+  position: relative;
+}
+
+.textsubheader{
+  height: 50%;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.textsubheader > h2{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.textsubheader > div{
+  text-align: center;
+  color: darkgray;
+  font-size: 25px;
+}
+
+.maxcontentcontainer{
+  width: 80%;
+  margin: 5% 10%;
+}
+
+.contentcontainer{
+  width: 32%;
+  height: 400px;
+  background-color:white;
+}
+
+.middle{
+  margin: 0% 2%;
+}
+
+.contentimage{
+  width: 80%;
+  margin: 0% 10%;
+  height: 100px;
+}
+
+.contentimage > img{
+  width: 100%;
+  height: 100%;
+}
+
+.contentcontainer > h2{
+  text-align: center;
+}
+
+.contentcontainer > p{
+  text-align: center;
+}
+
+.horrule{
+  border-bottom: 2px solid grey;
+  width: 20%;
+  margin: 5% 40%;
+}
+
+.prefooter{
+  width: 80%;
+  margin: 0% 10%;
+  height:400px;
+}
+
+.block{
+  width: 45%;
+  height:100%;
+  margin-top: 20px;
+}
+
+.block.left {
+margin-right: 10%;
+}
+
+.block.left > img{
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.textcontainer{
+  width: 63%;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.textcontainer > h2{
+  padding-bottom: 10px;
+  font-size: 22px;
+}
+
+.textcontainer > p{
+  padding-bottom: 10px;
+}
+/* fine classi main */
+
+/* classi footer */
+footer{
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+}
+
+.foot{
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.foot.left > h2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* fine classi footer */
 /* fine classi elementi pagina */
